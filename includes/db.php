@@ -1,8 +1,8 @@
 <?php
-$host   = 'localhost';
-$dbname = 'db_DUMONT';
-$user   = '22504341';          // login IUT
-$pass   = '764904'; // mdp phpMyAdmin
+$host   = 'localhost';           // Adresse du serveur MySQL
+$dbname = 'nom_de_votre_bdd';   // Nom de votre base de données
+$user   = 'votre_login';        // Identifiant MySQL
+$pass   = 'votre_mot_de_passe'; // Mot de passe MySQL
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $user, $pass);
