@@ -1,10 +1,10 @@
 <?php
 session_start();
 
-$host   = 'localhost';
-$dbname = 'db_DUMONT';
-$user   = 'u22504341';
-$pass   = '764904';
+$host   = '';
+$dbname = '';
+$user   = '';
+$pass   = '';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $user, $pass);
